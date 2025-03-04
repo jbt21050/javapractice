@@ -1,8 +1,12 @@
 public class Main {
   public static void main(String[] args) {
-    int[] scores;
-    scores = new int[3];
+    // int[] scores;
+    // scores = new int[3];
+    
+    // int[] scores = new int[3];
 
+    var scores = new int[3];
+    
     scores[0] = 1;
     scores[1] = 5;
     scores[2] = 10;
