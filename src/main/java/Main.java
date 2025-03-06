@@ -1,15 +1,10 @@
-import java.util.ArrayList;
-
 public class Main {
   public static void main(String[] args) {
-   int value = 5;
+   int[] scores = {1,5,10};
 
-   if (value > 0){
-     System.out.println("値は正です");
-   }else if (value < 0){
-     System.out.println("値は負です");
-   }else {
-     System.out.println("値は０です");
-   }
+    for(int score : scores) {
+      for (int i = 0; i < 3; i++)
+      System.out.println(score);
+    }
   }
 }
