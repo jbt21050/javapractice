@@ -1,10 +1,10 @@
 class Main {
   public static void main(String[] args) {
-   sayHello();
+   var answer = square(5);
+    System.out.println(answer);
   }
 
-  public static void sayHello() {
-    System.out.println("Hello World");
-    return;
+  public static int square(int number) {
+    return number * number;
   }
 }
